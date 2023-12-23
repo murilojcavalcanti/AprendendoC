@@ -1,0 +1,84 @@
+Def de Algoritmos:
+		- É uma sequencia de passos que, se seguida com sucesso e em ordem, soluciona um problema.
+
+Subrotina: Algoritmo para executar uma determinada tarefa que é parte de uma tarefa maior
+	Uso: 
+		- Quebrar o problema em partes enores, ananlisando cada uma separadamente, e depois as unindo
+			- Cada item de um algoritmo é uma subrotima
+		- Permite que possamos ter uma visão mais geral sem nos preocuparmos com muitos detalhes.
+			- Após termos solucionado o problema no nível mais alto, então nos preocupamos com osdetalhes de seus passos
+
+UCP: Responsável pelo processsamento de toda instrução passada ao computador
+	- Pode ser subdividade em : 
+	ULA (Unidade Logico-aritmética): Executa operações lógicas e aritméticas.
+	UC (Unidade de Controle): Controla o fluxo de informação da CPU comandando a ULA
+
+Instrução: A máquina só entende zeros e uns
+	- É um código composto por zeros e uns, que  à UCP o que deve ser feito, resultando em uma ação.
+
+memoria secundaria: Armazena dados e instruções por mais tempo
+
+Memoria primaria: Memoria RAM
+	- Também armazena dados e instruções
+	- A memoria primaria é limpa toa vez que o computador é desligado(ou o programa termina) 
+Tamanho da memória
+	- medida : bit(Binary digIT) - um zero ou um
+		- Byte (B): 8 bits
+		- QuiloByte (KB): 1024 B	
+		- MegaByte (MB): 1024 KB	
+		- GigaByte (GB): 1024 MB	
+		- TeraByte (TB): 1024 GB	
+		
+Arquitetura de Von Neumann
+	Composição 
+		UCP(Com ULA e controle)
+		Entrada
+		saida
+		Memória
+
+
+Como um computador consegue rodar mais de um programa ao mesmo tempo?
+	Problemas: 	
+		- A memoria e o processador são unicos... e varios programas compartilham deles
+		- COmo garantir que um programa não está escrevendo no espaço do outro? Usando um programa chefe
+
+
+
+Sistema Operacional
+	- É o programa responsavel por gerenciar os componentes do computador, simplificando seu uso pelos programa do usuario
+
+Programas
+ - Um programa é um conjunto de instruções que segue um algoritmo que executa uma tarefa
+	- Programar é dizer o que e como a maquina deve fazer uma determinada coisa.
+	Os programas devem ser extremamente detalhados e não ambiguos
+
+Compilador
+Compilador é um programa e portanto um conjunto de instruções que segue um algoritmo que traduz de uma  linguagem de programação especifica para a linguagem de mauina
+
+Requisitos de uma linguagemde programação
+Deve ser composta por comandos e interagir com nossa maquina de von neumann
+deve lidar com: 
+entrada - precisa de comandos de entrada
+saida - precisa de comandos de saida
+
+deve interagir com a memoria primaria
+	-antes de usar algum pedaço da memoria precisamos delamarca-lo como nosso mecanismo de aloação(estudar sobre alocação de memoria)
+
+	-apos separa o pedaço da memoria temos que efetivamente guardar algo lá - mecanismo de armazenagem
+
+	deve lidar com a ucp (processamento de dados)
+		- operadores aritmeticos
+		- operadores relacionais
+
+	Tambem na ucp deve permitir que façamos uma coisa ou outra , uma e outra e uma , não outra	.
+		- operadores logicos
+
+Função: É uma implementação de uma subrotina.
+
+type casting
+é possivel reduzir o tamanho de casas decimais apresentadas na tela usando o type casting
+basta apenas apos o % colocar um ponto e no numero de casas decimais que deseja colocar 
+como no exemplo a seguir:
+printf("area Total: %.2fm \n",areaTotal);
+
+nesse exemplo buscamos colocar duas casas decimais

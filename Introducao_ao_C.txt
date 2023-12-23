@@ -1,0 +1,8 @@
+Introdução ao C
+
+O C é uma linguagem complicada, ou seja ela gera um arquivo binário que pode ser executado e distribuido diretamente.
+
+- não tem coletor de lixo. isso quer dizer que precisamos liidar com o gerencimento de memoria por nossa conta.
+
+
+
